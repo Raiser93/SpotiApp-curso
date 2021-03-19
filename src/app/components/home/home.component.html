@@ -1,0 +1,3 @@
+<app-loading class="my-2" *ngIf="loading"></app-loading>
+<app-box-error [errorMessage]="errorMessage"  *ngIf="error"></app-box-error>
+<app-cards [items]="nuevasCanciones"></app-cards>
